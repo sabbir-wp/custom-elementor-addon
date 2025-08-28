@@ -27,3 +27,4 @@ Fork this repository. Create a new branch for your feature or bugfix. Make your 
 ## License
 This plugin is licensed under the GPL-3.0 License.
 # custom-elementor-addon
+# custom-elementor-addon
