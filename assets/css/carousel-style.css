@@ -1,0 +1,75 @@
+/*(1) owl-stage box*/
+.anber_ea_carousel_wrap .owl-carousel .owl-stage {
+    display: flex;
+}
+/*(2) the direct div of each element in the owl carousel*/
+.anber_ea_carousel_wrap .owl-carousel owl-item {
+    height: 100%;
+    background: #000;
+}
+
+/* fix blank or flashing items on carousel */
+.anber_ea_carousel_wrap .owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.anber_ea_carousel_wrap .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.anber_ea_carousel_wrap .owl-nav i {
+    font-size: 52px;
+}
+.anber_ea_carousel_wrap .owl-nav svg {
+    width: 42px;
+}
+.anber_ea_carousel_wrap .owl-nav .owl-prev {
+    left: 30px;
+    position: relative;
+}
+
+.anber_ea_carousel_wrap .owl-nav .owl-next {
+    right: 30px;
+    position: relative;
+}
+.anber_ea_carousel_wrap .owl-dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.anber_ea_carousel_wrap .owl-dot span {
+    display: inline-block;
+    border-radius: 50%;
+}
+.anber_ea_carousel_wrap .p-relative{
+    position: relative;
+    z-index: 9;
+}
+
+.anber_ea_carousel_wrap .owl-nav {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.anber_ea_carousel_wrap  button.owl-dot,.anber_ea_carousel_wrap .owl-nav button{
+    border: none;
+    background: none;
+}
+.anber_ea_carousel_wrap .owl-nav button{
+    opacity: 0.7
+}
+.anber_ea_carousel_wrap .owl-nav button:hover{
+    opacity:1
+}
